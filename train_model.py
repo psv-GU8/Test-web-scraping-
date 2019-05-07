@@ -9,5 +9,5 @@ interpreter = trainer.train(training_data)
 model_directory = trainer.persist("./models/current/nlu")
 
 while(True):
-	r = input("YOU --> ")
-	print("WISDOM --> " , interpreter.parse(r))
+	raw = input("YOU --> ")
+	print("WISDOM --> " , interpreter.parse(raw))
