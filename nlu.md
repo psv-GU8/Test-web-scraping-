@@ -1,0 +1,174 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- what's up
+
+## intent:product_search
+- i'm looking for a some clothes
+- I am looking for [shirts](product)
+- I want to buy [shirts](product)
+- I am searching for [shirts](product)
+- I want to buy clothes
+- I am searching for products
+- show me some [shirts](product)
+- show me [blue](color)[shirts](product)
+- show me a [red](color)[shirts](product) of size [medium](size)
+- show [shirts](product)
+-  i am searching for [shirts](product) of [blue](color)
+- show me some products
+- show me new [shirts](product)
+- buy [blue](color)[shirts](product)
+- I am looking for [pants](product)
+- I want to buy [pants](product)
+- I am searching for [pants](product)
+- show me some [pants](product)
+- show me some [black](color) [pants](product)
+- show me a [red](color)[shirts](pants) of size [34](size)
+- show [pants](product)
+- show me new [shoes](product)
+- buy [white](color)[shoes](product)
+- I am looking for [shoes](product)
+- I want to buy [shoes](product)
+- I am searching for [loafer](type)[shoes](product)
+- I want to buy
+- I am searching for [shoes](product)
+- show me some [shoes](product)
+- show me [black](color)[loafer](type)[shoes](product)
+- show me a [red](color)[shoes](product) of size [8](size)
+- show [shoes](product)
+- show me new [shoes](product)
+- buy [blue](color)[sunglasses](product)
+- buy [white](color)[sunglasses](product)
+- I am looking for [sunglasses](product)
+- I want to buy [sunglasses](product)
+- I am searching for [sunglasses](product)
+- show me some [sunglasses](product)
+- show me [black](color)[sunglasses](product)
+- show me a [grey](color)[sunglasses](product) of size [freesize](size)
+- show [sunglasses](product)
+- show me new [sunglasses](product)
+- buy [blue](color)[caps](product)
+- buy [white](color)[caps](product)
+- I am looking for [caps](product)
+- I want to buy [caps](product)
+- I am searching for [caps](product)
+- show me some [caps](product)
+- show me [black](color)[caps](product)
+- show me a [red](color)[caps](product) of size [freesize](size)
+- show [caps](product)
+- show me new [caps](product)
+- buy [blue](color)[caps](product)
+- buy [blue](color)[saree](product)
+- buy [white](color)[saree](product)
+- I am looking for [saree](product)
+- I want to buy [saree](product)
+- I am searching for [saree](product)
+- show me some [saree](product)
+- show me [black](color)[saree](product)
+- show me a [red](color)[saree](product)
+- show [saree](product)
+- show me new [saree](product)
+- buy [black](color)[speakers](product)[wireless](type)
+- buy [blue](color)[speakers](product)[Laptop](type)
+- buy [white](color)[speakers](product)
+- I am looking for [speakers](product)
+- I want to buy [speakers](product)
+- I am searching for [speakers](product)
+- I am searching for [speakers](product)
+- show me some [speakers](product)
+- show me [black](color)[speakers](product)
+- show me a [red](color)[speakers](product)
+- show [speakers](product)
+- show me new [speakers](product)
+- buy [red](color)[memory card](product)
+- buy [blue](color)[memory card](product)[8gb](size)
+- buy [white](color)[memory card](product)
+- I am looking for [memory card](product)
+- I want to buy [memory card](product)
+- I am searching for [memory card](product)
+- I am searching for [memory card](product)
+- show me some [memory card](product)[32gb](size)
+- show me [black](color)[memory card](product)
+- show me a [red](color)[memory card](product)
+- show [memory card](product)
+- show me new [memory card](product)
+- buy [red](color)[memory card](product)
+- buy [blue](color)[football](product)
+- buy [white](color)[football](product)[3](size)
+- I am looking for [football](product)
+- I want to buy [football](product)
+- I am searching for [football](product)
+- show me some [football](product)[4](size)
+- show me [black](color)[football](product)
+- show me a [red](color)[football](product)
+- show [football](product)
+- show me new [football](product)
+- buy [red](color)[football](product)
+- buy [blue](color)[mobile](product)
+- buy [black](color)[mobile](product)[32gb](size)[iphone](brand)
+- I am looking for [mobile](product)
+- I want to buy [mobile](product)
+- I am searching for [mobile](product)[64gb](size)[lenovo](brand)
+- I am searching for [mobile](product)
+- show me some [mobile](product)[64gb](size)
+- show me [black](color)[mobile](product)
+- show me a [red](color)[mobile](product)
+- show [mobile](product)
+- show me new [mobile](product)
+- buy [red](color)[mobile](product)
+- buy [red](color)[mouse](product)
+- buy [black](color)[mouse](product)[3.0](type)[dell](brand)
+- I am looking for [mouse](product)
+- I want to buy [mouse](product)
+- I am searching for [mouse](product)[2.0](type)[lenovo](brand)
+- I am searching for [mouse](product)
+- show me some [mouse](product)[2.0](type)
+- show me [black](color)[mouse](product)
+- show me a [red](color)[mouse](product)
+- show [mouse](product)
+- show me new [mouse](product)
+- buy [black strap](color)[smart bands](product)
+- buy [purple strap](color)[smart bands](product)[free](size)[mi](brand)
+- buy [multicolor strap](color)[smart bands](product)
+- buy [black strap](color)[smart bands](product)[free](size)[lenovo](brand)
+- I am looking for [smart bands](product)
+- I want to buy [smart bands](product)
+- I am searching for [smart bands](product)[large](size)[lenovo](brand)
+- I am searching for [smart bands](product)
+- show me some [smart bands](product)[large](size)[lenovo](brand)
+- show me [black](color)[smart bands](product)[large](size)[lenovo](brand)
+- show me a [red](color)[smart bands](product)
+- show [smart bands](product)
+- show me new [smart bands](product)
+- buy [red](color)[smart bands](product)
+- buy [red](color)[mouse](product)[free](size)[lenovo](brand)
+
+## intent:thankyou
+- thanks!
+- thank you
+- thx
+- thanks very much
+
+## intent:color_search
+- I am looking for [blue](color) color shirts.
+- Show me [blue](color) color shirts.
+- Buy me [black](color)color shirts.
+- Show me [red](color) color shirts.
+- I am searching for [blue](color) shirts.
+- I am searching for [black](color) shirts.
+- I am searching for [green](color) shirts.
+
+## intent:size_search
+- I am looking for [medium](size) shirts.
+- I am looking for [small](size) shirts.
+- I am looking for [large](size) shirts.
+- I am searching for [large](size) shirts.
+- I am searching for [small](size) shirts.
+- I am searching for [medium](size) shirts.
+- Show me [medium](size) shirts.
+- Show me [large](size) shirts.
+- Show me [small](size) shirts.

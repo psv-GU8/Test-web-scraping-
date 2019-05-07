@@ -1,0 +1,2401 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "product_search",
+        "text": "i'm looking for a some clothes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for shirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy shirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for shirts"
+      },
+      {
+        "intent": "product_search",
+        "text": "I want to buy clothes"
+      },
+      {
+        "intent": "product_search",
+        "text": "I am searching for products"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some shirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blueshirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "shirts",
+            "entity": "product"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "show me a redshirts of size medium"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "show shirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "shirts",
+            "entity": "product"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "i am searching for shirts of blue"
+      },
+      {
+        "intent": "product_search",
+        "text": "show me some products"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new shirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ],
+        "text": "buy blueshirts"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "pants",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for pants"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "pants",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy pants"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "pants",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for pants"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "pants",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some pants"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "pants",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some black pants"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "shirts",
+            "entity": "pants"
+          },
+          {
+            "start": 28,
+            "end": 30,
+            "value": "34",
+            "entity": "size"
+          }
+        ],
+        "text": "show me a redshirts of size 34"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "pants",
+            "entity": "product"
+          }
+        ],
+        "text": "show pants"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "buy whiteshoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "loafer",
+            "entity": "type"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for loafershoes"
+      },
+      {
+        "intent": "product_search",
+        "text": "I want to buy"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "loafer",
+            "entity": "type"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackloafershoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "shoes",
+            "entity": "product"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "8",
+            "entity": "size"
+          }
+        ],
+        "text": "show me a redshoes of size 8"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "show shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new shoes"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "buy bluesunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "buy whitesunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for sunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy sunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for sunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some sunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blacksunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "grey",
+            "entity": "color"
+          },
+          {
+            "start": 14,
+            "end": 24,
+            "value": "sunglasses",
+            "entity": "product"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "freesize",
+            "entity": "size"
+          }
+        ],
+        "text": "show me a greysunglasses of size freesize"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "show sunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new sunglasses"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "buy bluecaps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "buy whitecaps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for caps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy caps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for caps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some caps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackcaps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "caps",
+            "entity": "product"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "freesize",
+            "entity": "size"
+          }
+        ],
+        "text": "show me a redcaps of size freesize"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "show caps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new caps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "caps",
+            "entity": "product"
+          }
+        ],
+        "text": "buy bluecaps"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "buy bluesaree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "buy whitesaree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for saree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy saree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for saree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some saree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blacksaree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redsaree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "show saree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "saree",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new saree"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "speakers",
+            "entity": "product"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "wireless",
+            "entity": "type"
+          }
+        ],
+        "text": "buy blackspeakerswireless"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "speakers",
+            "entity": "product"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Laptop",
+            "entity": "type"
+          }
+        ],
+        "text": "buy bluespeakersLaptop"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "buy whitespeakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "show me some speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackspeakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redspeakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "show speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "speakers",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new speakers"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "buy redmemory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "memory card",
+            "entity": "product"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "8gb",
+            "entity": "size"
+          }
+        ],
+        "text": "buy bluememory card8gb"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "buy whitememory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for memory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy memory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for memory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for memory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "memory card",
+            "entity": "product"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "32gb",
+            "entity": "size"
+          }
+        ],
+        "text": "show me some memory card32gb"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackmemory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redmemory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "show memory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new memory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "memory card",
+            "entity": "product"
+          }
+        ],
+        "text": "buy redmemory card"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "buy bluefootball"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "white",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "football",
+            "entity": "product"
+          },
+          {
+            "start": 17,
+            "end": 18,
+            "value": "3",
+            "entity": "size"
+          }
+        ],
+        "text": "buy whitefootball3"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for football"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy football"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for football"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "football",
+            "entity": "product"
+          },
+          {
+            "start": 21,
+            "end": 22,
+            "value": "4",
+            "entity": "size"
+          }
+        ],
+        "text": "show me some football4"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackfootball"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redfootball"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "show football"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new football"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "football",
+            "entity": "product"
+          }
+        ],
+        "text": "buy redfootball"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "blue",
+            "entity": "color"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "buy bluemobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "mobile",
+            "entity": "product"
+          },
+          {
+            "start": 15,
+            "end": 19,
+            "value": "32gb",
+            "entity": "size"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "iphone",
+            "entity": "brand"
+          }
+        ],
+        "text": "buy blackmobile32gbiphone"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for mobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy mobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "mobile",
+            "entity": "product"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "64gb",
+            "entity": "size"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "I am searching for mobile64gblenovo"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for mobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "mobile",
+            "entity": "product"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "64gb",
+            "entity": "size"
+          }
+        ],
+        "text": "show me some mobile64gb"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackmobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redmobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "show mobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new mobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "mobile",
+            "entity": "product"
+          }
+        ],
+        "text": "buy redmobile"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "buy redmouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "mouse",
+            "entity": "product"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "3.0",
+            "entity": "type"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "dell",
+            "entity": "brand"
+          }
+        ],
+        "text": "buy blackmouse3.0dell"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for mouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy mouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "mouse",
+            "entity": "product"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "2.0",
+            "entity": "type"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "I am searching for mouse2.0lenovo"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for mouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "mouse",
+            "entity": "product"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "2.0",
+            "entity": "type"
+          }
+        ],
+        "text": "show me some mouse2.0"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "show me blackmouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redmouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "show mouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "mouse",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new mouse"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "black strap",
+            "entity": "color"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "buy black strapsmart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "purple strap",
+            "entity": "color"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "smart bands",
+            "entity": "product"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "free",
+            "entity": "size"
+          },
+          {
+            "start": 31,
+            "end": 33,
+            "value": "mi",
+            "entity": "brand"
+          }
+        ],
+        "text": "buy purple strapsmart bandsfreemi"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 20,
+            "value": "multicolor strap",
+            "entity": "color"
+          },
+          {
+            "start": 20,
+            "end": 31,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "buy multicolor strapsmart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "black strap",
+            "entity": "color"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "smart bands",
+            "entity": "product"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "free",
+            "entity": "size"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "buy black strapsmart bandsfreelenovo"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "I am looking for smart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy smart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "smart bands",
+            "entity": "product"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "I am searching for smart bandslargelenovo"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "I am searching for smart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "smart bands",
+            "entity": "product"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "show me some smart bandslargelenovo"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "black",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "smart bands",
+            "entity": "product"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "show me blacksmart bandslargelenovo"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "show me a redsmart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "show smart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "show me new smart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "smart bands",
+            "entity": "product"
+          }
+        ],
+        "text": "buy redsmart bands"
+      },
+      {
+        "intent": "product_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "red",
+            "entity": "color"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "mouse",
+            "entity": "product"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "free",
+            "entity": "size"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "lenovo",
+            "entity": "brand"
+          }
+        ],
+        "text": "buy redmousefreelenovo"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "I am looking for blue color shirts."
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "Show me blue color shirts."
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "black",
+            "entity": "color"
+          }
+        ],
+        "text": "Buy me blackcolor shirts."
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "Show me red color shirts."
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "I am searching for blue shirts."
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "black",
+            "entity": "color"
+          }
+        ],
+        "text": "I am searching for black shirts."
+      },
+      {
+        "intent": "color_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "green",
+            "entity": "color"
+          }
+        ],
+        "text": "I am searching for green shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "I am looking for medium shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "I am looking for small shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I am looking for large shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I am searching for large shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "I am searching for small shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "I am searching for medium shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "Show me medium shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "Show me large shirts."
+      },
+      {
+        "intent": "size_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "Show me small shirts."
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
